@@ -1,0 +1,5 @@
+.photo-grid__item {
+  border-radius: 10px;
+  margin: 0;
+  position: relative;
+}
