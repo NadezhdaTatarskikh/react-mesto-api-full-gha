@@ -13,7 +13,7 @@ const { requestLogger, errorLogger } = require('./middlewares/logger'); // им�
 const { PORT = 3000 } = process.env;
 const app = express();
 
-mongoose.connect('mongodb://127.0.0.1:3000/mestodb');
+mongoose.connect('mongodb://127.0.0.1/mestodb');
 
 // подключаем парсеры
 app.use(express.json());
