@@ -80,9 +80,8 @@ class Api {
 
 // api
 const api = new Api({
-  url: "https://mesto.nomoreparties.co/v1/cohort-61",
+  url: "https://domainname.students.gar.nomoredomains.work",
   headers: {
-    authorization: "b5e191e2-a9f1-4b65-96ec-0b7ea96da54a",
     "Content-Type": "application/json",
   },
 });

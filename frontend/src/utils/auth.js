@@ -1,4 +1,4 @@
-export const BASE_URL = 'https://auth.nomoreparties.co';
+export const BASE_URL = 'https://domainname.students.gar.nomoredomains.work';
 
 //проверяем ответ с сервера
 const checkResponse = (res) => {
