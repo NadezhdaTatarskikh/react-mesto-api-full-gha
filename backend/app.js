@@ -1,11 +1,11 @@
 const express = require('express');
+const cors = require('cors');
 const mongoose = require('mongoose');
 // eslint-disable-next-line import/no-extraneous-dependencies
 const { errors } = require('celebrate');
 const userRouter = require('./routes/users');
 const cardRouter = require('./routes/cards');
 const auth = require('./middlewares/auth');
-const cors = require('cors');
 const { createUser, login } = require('./controllers/users');
 const { signinValidade, signupValidate } = require('./middlewares/validation');
 const NotFound = require('./utils/errors/NotFound');
