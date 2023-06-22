@@ -13,6 +13,11 @@ class Api {
       return Promise.reject(`Ошибка: ${res.status}`);
   }
 
+  /**Установить токен*/
+  setToken(token) {
+    this._headers.Authorization = `Bearer ${token}`;
+  }
+
   // Получаем карточеки с сервера
   getInitialCards() {
     return fetch(`${this._url}/cards`, {
@@ -83,6 +88,7 @@ const api = new Api({
   url: "https://domainname.students.gar.nomoredomains.work",
   headers: {
     "Content-Type": "application/json",
+    Authorization: "",
   },
 });
 
