@@ -43,7 +43,7 @@
 
 ## Ссылки на проект
 
-IP-адрес <51.250.82.241>
+IP 51.250.82.241;
 
 Frontend https://domainname.students.tat.nomoredomains.work
 
